@@ -54,7 +54,7 @@ window.onscroll = () =>
 }
 
 function AddQuote(){
-    fetch('https://api.quotable.io/random')
+    fetch('./random')
     .then((response) => response.json())
     .then((data) => {
 

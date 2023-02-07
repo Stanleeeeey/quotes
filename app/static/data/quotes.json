@@ -1,7 +1,25 @@
 [
-    {"_id":"NPkLjPHDLJ","content":"Being entirely honest with oneself is a good exercise.","author":"Sigmund Freud","tags":["wisdom"],"authorSlug":"sigmund-freud","length":54,"dateAdded":"2020-01-31","dateModified":"2020-01-31"},
+    {
+        "author":"mario" ,
+        "content": "It's-a me Mario"
+    },
+    {
+        "author":"Douglas Adams",
+        "content": "Don't Panic"
+    },
+    {
+        "author":"Douglas Adams",
+        "content":"Would it save you a lot of time if I just gave up and went mad now?"
+        
+    },
+    {
+        "author":"cicero",
+        "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        
+    },
+    {
+        "author": "Douglas Adams",
+        "content": "42"
+    }
 
-    {"_id":"-CXvcGgw_i0X","content":"The eye sees only what the mind is prepared to comprehend.","author":"Henri Bergson","tags":["famous-quotes"],"authorSlug":"henri-bergson","length":58,"dateAdded":"2021-04-23","dateModified":"2021-04-23"},
-
-    {"_id":"E5RobFpin","content":"Start where you are. Use what you have. Do what you can.","author":"Arthur Ashe","tags":["inspirational"],"authorSlug":"arthur-ashe","length":56,"dateAdded":"2019-10-03","dateModified":"2019-10-03"}
 ]

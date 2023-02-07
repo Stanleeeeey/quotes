@@ -1,5 +1,6 @@
 from flask import Flask, render_template, json
 import os
+import random as r
 
 app = Flask(__name__)
 
@@ -11,7 +12,8 @@ def home():
 @app.route('/random')
 def random():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "taiwan.json")
+    json_url = os.path.join(SITE_ROOT, "static/data", "quotes.json")
     data = json.load(open(json_url))
-    print(data)
+
+    return r.choice(data)
 app.run()
